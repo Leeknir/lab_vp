@@ -1,6 +1,6 @@
 using namespace std;
 
-namespace TSA
+namespace EC
 {
 	class MenuItem
 	{

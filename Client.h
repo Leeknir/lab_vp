@@ -1,19 +1,19 @@
 #pragma once
 #include <iostream>
 #include "User.h"
-#include "Auto.h"
+#include "Service.h"
 
 using namespace std;
 
-namespace TSA
+namespace EC
 {	
 	class Client : public User
 	{
 	private:
-		Auto automobile;
+		Service services;
 	public:
 		Client();
-		Client(string, string, int, string, string, Auto);
+		Client(string, string, int, string, string, Service);
 
 		string getName();
 

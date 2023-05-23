@@ -3,7 +3,7 @@
 
 using namespace std;
 
-namespace TSA
+namespace EC
 {
 	Employee::Employee() {};
 

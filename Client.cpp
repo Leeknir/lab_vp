@@ -3,18 +3,18 @@
 #include "User.h"
 
 using namespace std;
-namespace TSA
+namespace EC
 {
 	Client::Client() {};
 	
-	Client::Client(string name, string lastName, int age, string login, string pass, Auto automobile)
+	Client::Client(string name, string lastName, int age, string login, string pass, Service services)
 	{
 		this->name = name;
 		this->lastName = lastName;
 		this->age = age;
 		this->login = login;
 		this->pass = pass;
-		this->automobile = automobile;
+		this->services = services;
 	}
 
 	string Client::getName()
@@ -48,7 +48,7 @@ namespace TSA
 		out << "Last name: " << client.lastName << endl;
 		out << "Age: " << client.age << endl;
 		out << "Login: " << client.login << endl;
-		out << "Auto info:\n" << client.automobile;
+		out << "Auto info:\n" << client.services;
 
 		return out;
 	}
@@ -66,7 +66,7 @@ namespace TSA
 		cout << "Password: ";
 		in >> client.pass;
 		cout << "Auto info:" << endl;
-		in >> client.automobile;
+		in >> client.services;
 
 		return in;
 

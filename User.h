@@ -3,7 +3,7 @@
 
 using namespace std;
 
-namespace TSA {
+namespace EC {
 	
 	
 	class User
@@ -20,7 +20,7 @@ namespace TSA {
 	public:
 		
 		virtual string getName() = 0;
-		//virtual void printInfo() = 0;
+		
 	};
 
 }

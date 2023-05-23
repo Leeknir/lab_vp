@@ -3,7 +3,7 @@
 
 using namespace std;
 
-namespace TSA
+namespace EC
 {
 	MenuItem::MenuItem(string name, function f)
 	{

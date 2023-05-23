@@ -25,16 +25,16 @@
     <Filter Include="Models\Menu">
       <UniqueIdentifier>{a4b8c12a-f487-4b5f-8a56-37a23b097f8f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Models\Autosalon">
+    <Filter Include="Models\WorkShop">
       <UniqueIdentifier>{fe65321a-b5f3-4d8a-8d17-832e09090e9d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Models\Autosalon\Client">
+    <Filter Include="Models\WorkShop\Client">
       <UniqueIdentifier>{0e313fbe-74c1-4bf9-ade5-bdad8ddcd69a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Models\Autosalon\Employee">
+    <Filter Include="Models\WorkShop\Employee">
       <UniqueIdentifier>{862ba4ea-956b-4a15-bde1-056f8c06720e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Models\Autosalon\Auto">
+    <Filter Include="Models\WorkShop\Auto">
       <UniqueIdentifier>{69a1adc6-3e19-4a45-ac0e-c75b799f4022}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -46,13 +46,13 @@
       <Filter>Models\User</Filter>
     </ClCompile>
     <ClCompile Include="Client.cpp">
-      <Filter>Models\Autosalon\Client</Filter>
+      <Filter>Models\WorkShop\Client</Filter>
     </ClCompile>
-    <ClCompile Include="Auto.cpp">
-      <Filter>Models\Autosalon\Auto</Filter>
+    <ClCompile Include="Service.cpp">
+      <Filter>Models\WorkShop\Auto</Filter>
     </ClCompile>
     <ClCompile Include="Employee.cpp">
-      <Filter>Models\Autosalon\Employee</Filter>
+      <Filter>Models\WorkShop\Employee</Filter>
     </ClCompile>
     <ClCompile Include="MenuItem.cpp">
       <Filter>Models\Item</Filter>
@@ -66,13 +66,13 @@
       <Filter>Models\User</Filter>
     </ClInclude>
     <ClInclude Include="Client.h">
-      <Filter>Models\Autosalon\Client</Filter>
+      <Filter>Models\WorkShop\Client</Filter>
     </ClInclude>
-    <ClInclude Include="Auto.h">
-      <Filter>Models\Autosalon\Auto</Filter>
+    <ClInclude Include="Service.h">
+      <Filter>Models\WorkShop\Auto</Filter>
     </ClInclude>
     <ClInclude Include="Employee.h">
-      <Filter>Models\Autosalon\Employee</Filter>
+      <Filter>Models\WorkShop\Employee</Filter>
     </ClInclude>
     <ClInclude Include="MenuItem.h">
       <Filter>Models\Item</Filter>

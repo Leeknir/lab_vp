@@ -2,22 +2,22 @@
 #include "MyMenu.h"
 #include "Client.h"
 #include "Employee.h"
-#include "Auto.h"
+#include "Service.h"
 
 using namespace std;
-using namespace TSA;
+using namespace EC;
 
-Auto* autos = new Auto[3]{ Auto("Ford", 1200000, 2003, "cool", "fast"), Auto("Lada", 2222222, 2010, "nice", "beautiful"), Auto("Nissan", 3603432, 2012, "gorgeous", "blue") };
+Service* services = new Service[3]{ Service("Ford", 1200000,  "cool"), Service("Lada", 2222222, "nice"), Service("Nissan", 3603432, "gorgeous") };
 
 int clientCount = 3;
-Client* clients = new Client[5] {Client("Sonya", "Tarasova", 20, "markothh", "123123", autos[0]),
-								 Client("Andrey", "Gorelov", 23, "andrey", "321123", autos[1]),
-								 Client("Sergey", "Serov", 24, "sergey", "bjhjvgf", autos[2]) };
+Client* clients = new Client[5] {Client("Sonya", "Tarasova", 20, "markothh", "123123", services[0]),
+								 Client("Andrey", "Gorelov", 23, "andrey", "321123", services[1]),
+								 Client("Sergey", "Serov", 24, "sergey", "bjhjvgf", services[2]) };
 
 int employeeCount = 3;
-Employee* employees = new Employee[5]{ Employee("Agata", "Belousova", 19, "agata", "irucm", "cashier"),
-									   Employee("Victor", "Ovsyannikov", 26, "victor", "ujvr", "top-manager"),
-									   Employee("Alisa", "Pavlova", 22, "alisa", "iuthmc", "manager")};
+Employee* employees = new Employee[5]{ Employee("Zhenya", "Chechetkin", 19, "YaLox", "123", "cashier"),
+									   Employee("Victor", "Dudka", 26, "victor", "Uchkuduckasd", "top-manager"),
+									   Employee("Nastya", "Akylova", 22, "Anastasiaaaa", "wasd", "manager")};
 
 int printEmployees()
 {

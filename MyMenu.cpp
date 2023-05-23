@@ -3,7 +3,7 @@
 
 using namespace std;
 
-namespace TSA
+namespace EC
 {
 	MyMenu::MyMenu(string name, MenuItem* items, int count)
 	{

@@ -132,7 +132,7 @@
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="MyMenu.cpp" />
     <ClCompile Include="MenuItem.cpp" />
-    <ClCompile Include="Auto.cpp" />
+    <ClCompile Include="Service.cpp" />
     <ClCompile Include="User.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -140,7 +140,7 @@
     <ClInclude Include="Employee.h" />
     <ClInclude Include="MenuItem.h" />
     <ClInclude Include="MyMenu.h" />
-    <ClInclude Include="Auto.h" />
+    <ClInclude Include="Service.h" />
     <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
